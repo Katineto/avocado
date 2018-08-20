@@ -12,7 +12,6 @@ body {
 #root {
   display: grid;
   height: inherit;
-  margin: 0 2rem 0 2rem;
 }
 h2 {
   background-color: #228d6e;
@@ -196,6 +195,7 @@ p#no-tasks {
       "today"
       "projects"
       "tasks";
+    margin: 0;
   }
   .add-task-wrapper {
     grid-gap: 1rem;
@@ -212,6 +212,7 @@ p#no-tasks {
     grid-template-areas:
       "today    today"
       "projects tasks";
+    margin: 0 2rem;
   }
   .add-task-wrapper {
     margin-right: 0;
@@ -244,6 +245,7 @@ p#no-tasks {
   #root {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "projects tasks today";
+    margin: 0 2rem;
   }
   .add-task-wrapper {
     margin-right: 1rem;
