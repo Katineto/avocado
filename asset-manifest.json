@@ -1,0 +1,20 @@
+{
+  "main.css": "static/css/main.5805a29c.css",
+  "main.css.map": "static/css/main.5805a29c.css.map",
+  "main.js": "static/js/main.308d6b94.js",
+  "main.js.map": "static/js/main.308d6b94.js.map",
+  "static/media/alphabet.svg": "static/media/alphabet.1ab436f3.svg",
+  "static/media/alphabet_selected.svg": "static/media/alphabet_selected.eea7e53a.svg",
+  "static/media/calendar.svg": "static/media/calendar.e7bde0cc.svg",
+  "static/media/calendar_selected.svg": "static/media/calendar_selected.bc0bac06.svg",
+  "static/media/delete_btn.svg": "static/media/delete_btn.2efa585c.svg",
+  "static/media/delete_btn_hover.svg": "static/media/delete_btn_hover.fe14f7c6.svg",
+  "static/media/done.svg": "static/media/done.de66dea7.svg",
+  "static/media/done_selected.svg": "static/media/done_selected.4a47761e.svg",
+  "static/media/gray_star.svg": "static/media/gray_star.d23cc1be.svg",
+  "static/media/gray_star_filled.svg": "static/media/gray_star_filled.50dde488.svg",
+  "static/media/star.svg": "static/media/star.9cb3b174.svg",
+  "static/media/star_selected.svg": "static/media/star_selected.7b8eb73a.svg",
+  "static/media/yellow_star.svg": "static/media/yellow_star.aac77c02.svg",
+  "static/media/yellow_star_filled.svg": "static/media/yellow_star_filled.c5a752a4.svg"
+}
