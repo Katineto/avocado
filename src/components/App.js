@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Projects from "./projects";
 import { Tasks } from "./tasks";
 import TodaysTasks from "./todaystasks";
+import firstLoad from "./firstLoad";
 import format from "date-fns/format";
 import compareAsc from "date-fns/compare_asc";
 
@@ -24,12 +25,7 @@ class App extends Component {
     if (localStorage.getItem("avocado")) {
       return this.populateStateWithLocalStorage();
     } else {
-      return {
-        id: 0,
-        selectedProjId: 0,
-        projects: [],
-        taskId: 0
-      };
+      return firstLoad();
     }
   };
   //Saving and retrieving data from local storage

@@ -93,9 +93,11 @@ class AddTaskForm extends Component {
     };
   }
   setPriority = starId => {
-    this.setState({
-      priority: Number(starId)
-    });
+    if (Number(starId) >= 1) {
+      this.setState({
+        priority: Number(starId)
+      });
+    }
   };
   cancelTaskCreation = () => {
     const titleElement = document.getElementById("title");
